@@ -1,0 +1,26 @@
+{
+	"name": "cypress-cucumber",
+	"version": "1.0.0",
+	"description": "Cypress with cucumber example",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run"
+	},
+	"keywords": [
+		"Cypress",
+		"Cucumber"
+	],
+	"author": "Carlos Contreras",
+	"license": "ISC",
+	"dependencies": {
+		"cypress": "^9.5.3",
+		"cypress-cucumber-preprocessor": "^4.3.1"
+	},
+	"devDependencies": {
+		"prettier": "^2.6.2"
+	},
+	"cypress-cucumber-preprocessor": {
+		"nonGlobalStepDefinitions": true
+	}
+}
